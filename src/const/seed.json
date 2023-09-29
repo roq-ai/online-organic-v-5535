@@ -1,0 +1,2472 @@
+[
+  {
+    "order": [
+      {
+        "id": "61c9f6f0-ca5a-4070-95e4-1cf70aff445c",
+        "order_date": "2023-09-28T16:31:39.102Z",
+        "delivery_date": "2023-09-28T11:40:28.968Z",
+        "total_price": 32719,
+        "created_at": "2023-09-28T20:49:44.250Z",
+        "updated_at": "2023-09-29T04:38:48.153Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bab9a436-300a-418a-8ee7-e8e3fda9be4a",
+        "order_date": "2023-09-28T23:07:15.306Z",
+        "delivery_date": "2023-09-29T06:05:10.806Z",
+        "total_price": 8467,
+        "created_at": "2023-09-28T06:11:23.336Z",
+        "updated_at": "2023-09-29T05:25:21.085Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4796d1c0-3827-4f57-9300-68423f9f8dea",
+        "order_date": "2023-09-29T01:01:37.365Z",
+        "delivery_date": "2023-09-28T19:22:56.410Z",
+        "total_price": 34027,
+        "created_at": "2023-09-28T23:56:36.466Z",
+        "updated_at": "2023-09-28T14:44:50.106Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d58f941e-7a6e-4e90-8f0d-16460e503c7d",
+        "order_date": "2023-09-28T22:51:55.330Z",
+        "delivery_date": "2023-09-28T13:39:16.681Z",
+        "total_price": 94540,
+        "created_at": "2023-09-28T21:45:59.717Z",
+        "updated_at": "2023-09-28T17:07:35.402Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a05f19c-d8e4-436e-8762-2fdb92123ef5",
+        "order_date": "2023-09-28T21:23:09.651Z",
+        "delivery_date": "2023-09-29T05:36:40.730Z",
+        "total_price": 7803,
+        "created_at": "2023-09-28T06:56:36.180Z",
+        "updated_at": "2023-09-28T08:15:24.941Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "dfb072a8-7343-460a-992d-65adf63705e0",
+        "name": "Apples",
+        "quantity": 72915,
+        "price": 84066,
+        "expiry_date": "2023-09-29T05:14:33.466Z",
+        "created_at": "2023-09-28T19:37:33.790Z",
+        "updated_at": "2023-09-29T05:45:58.881Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "a7678a6d-bddc-4288-867e-fe1619a02ae8",
+        "name": "Bananas",
+        "quantity": 89649,
+        "price": 20592,
+        "expiry_date": "2023-09-29T01:55:26.092Z",
+        "created_at": "2023-09-28T13:08:00.749Z",
+        "updated_at": "2023-09-28T22:50:09.757Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "4ffa87ac-cc28-476a-ab58-5362dbb95338",
+        "name": "Oranges",
+        "quantity": 66446,
+        "price": 10742,
+        "expiry_date": "2023-09-28T12:55:38.027Z",
+        "created_at": "2023-09-28T14:59:47.305Z",
+        "updated_at": "2023-09-28T22:53:50.482Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "0e700079-3bd4-4864-b268-dddc448747d3",
+        "name": "Grapes",
+        "quantity": 5498,
+        "price": 64392,
+        "expiry_date": "2023-09-28T18:58:24.524Z",
+        "created_at": "2023-09-28T07:50:17.630Z",
+        "updated_at": "2023-09-29T01:55:47.069Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "c524e29b-c88a-4744-801b-279dc764486e",
+        "name": "Strawberries",
+        "quantity": 74914,
+        "price": 67068,
+        "expiry_date": "2023-09-28T06:58:16.052Z",
+        "created_at": "2023-09-28T16:22:18.121Z",
+        "updated_at": "2023-09-28T14:45:08.101Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "a3978a7e-2e68-468f-9b34-ebc973535363",
+        "quantity": 85564,
+        "price": 14421,
+        "created_at": "2023-09-28T14:23:51.776Z",
+        "updated_at": "2023-09-28T08:03:12.936Z",
+        "inventory_id": "a7678a6d-bddc-4288-867e-fe1619a02ae8",
+        "order_id": "4a05f19c-d8e4-436e-8762-2fdb92123ef5"
+      },
+      {
+        "id": "6f3c4262-229f-4d9f-b211-cebcd0eb4218",
+        "quantity": 42826,
+        "price": 89426,
+        "created_at": "2023-09-28T22:49:40.308Z",
+        "updated_at": "2023-09-28T11:09:47.443Z",
+        "inventory_id": "a7678a6d-bddc-4288-867e-fe1619a02ae8",
+        "order_id": "bab9a436-300a-418a-8ee7-e8e3fda9be4a"
+      },
+      {
+        "id": "0aea1121-5ab2-4609-b0b3-6e87dc76c74b",
+        "quantity": 35081,
+        "price": 84477,
+        "created_at": "2023-09-29T03:41:02.900Z",
+        "updated_at": "2023-09-28T20:10:44.657Z",
+        "inventory_id": "0e700079-3bd4-4864-b268-dddc448747d3",
+        "order_id": "4796d1c0-3827-4f57-9300-68423f9f8dea"
+      },
+      {
+        "id": "3802bad7-2f64-4467-b89b-831fb09f84f8",
+        "quantity": 39516,
+        "price": 89626,
+        "created_at": "2023-09-29T02:54:41.886Z",
+        "updated_at": "2023-09-28T15:57:39.626Z",
+        "inventory_id": "0e700079-3bd4-4864-b268-dddc448747d3",
+        "order_id": "4796d1c0-3827-4f57-9300-68423f9f8dea"
+      },
+      {
+        "id": "a34e41f9-ec7f-4bba-a124-6a51ee2a7279",
+        "quantity": 57514,
+        "price": 17852,
+        "created_at": "2023-09-28T10:51:34.818Z",
+        "updated_at": "2023-09-28T22:31:40.527Z",
+        "inventory_id": "c524e29b-c88a-4744-801b-279dc764486e",
+        "order_id": "4796d1c0-3827-4f57-9300-68423f9f8dea"
+      }
+    ],
+    "discount": [
+      {
+        "id": "0bcda9d0-4cfa-434c-b4d2-97f2734b5e4a",
+        "discount_percentage": 12830,
+        "start_date": "2023-09-28T18:24:50.804Z",
+        "end_date": "2023-09-28T20:18:20.930Z",
+        "created_at": "2023-09-28T17:23:24.360Z",
+        "updated_at": "2023-09-28T12:04:12.485Z",
+        "inventory_id": "dfb072a8-7343-460a-992d-65adf63705e0"
+      },
+      {
+        "id": "c484d4e2-0e79-4fbf-b179-1d4d164119af",
+        "discount_percentage": 32930,
+        "start_date": "2023-09-28T06:44:25.860Z",
+        "end_date": "2023-09-29T01:03:28.990Z",
+        "created_at": "2023-09-28T13:27:58.002Z",
+        "updated_at": "2023-09-28T17:58:37.441Z",
+        "inventory_id": "c524e29b-c88a-4744-801b-279dc764486e"
+      },
+      {
+        "id": "412c84e5-8b00-4c67-900a-ab31c4d02606",
+        "discount_percentage": 69430,
+        "start_date": "2023-09-28T23:43:28.733Z",
+        "end_date": "2023-09-28T11:29:35.356Z",
+        "created_at": "2023-09-28T23:37:08.935Z",
+        "updated_at": "2023-09-28T15:04:36.865Z",
+        "inventory_id": "0e700079-3bd4-4864-b268-dddc448747d3"
+      },
+      {
+        "id": "c31ee978-8453-4b0e-b08d-d021d2837853",
+        "discount_percentage": 89718,
+        "start_date": "2023-09-28T15:05:29.638Z",
+        "end_date": "2023-09-28T13:31:54.271Z",
+        "created_at": "2023-09-28T07:47:41.709Z",
+        "updated_at": "2023-09-28T21:57:01.834Z",
+        "inventory_id": "dfb072a8-7343-460a-992d-65adf63705e0"
+      },
+      {
+        "id": "82ec5698-3bc3-47d3-9719-a42050305025",
+        "discount_percentage": 46408,
+        "start_date": "2023-09-28T19:08:59.365Z",
+        "end_date": "2023-09-29T01:04:44.823Z",
+        "created_at": "2023-09-28T14:24:46.936Z",
+        "updated_at": "2023-09-28T14:24:08.203Z",
+        "inventory_id": "dfb072a8-7343-460a-992d-65adf63705e0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fa59250e-bacf-4ff6-bcbf-0e9c1db482fc",
+        "email": "Reyna27@roq.tech",
+        "firstName": "Chelsie",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/670.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ac7aea1-71a8-4cd3-b5d6-9ca4cea549ad",
+        "email": "Aliza98@roq.tech",
+        "firstName": "Dayton",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90439320",
+        "tenantId": null
+      },
+      {
+        "reference": "7083e986-f372-42d6-8577-90fa828052de",
+        "email": "Cristina_Baumbach@roq.tech",
+        "firstName": "Llewellyn",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4370754b-5530-4c8b-aa6f-90e9701a1050",
+        "email": "Camden.Borer18@roq.tech",
+        "firstName": "Vivien",
+        "lastName": "Rowe-Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84268340",
+        "tenantId": null
+      },
+      {
+        "reference": "cd9c90aa-af9f-495c-91c8-0ee0f7528239",
+        "email": "Kirstin80@roq.tech",
+        "firstName": "Paxton",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/171.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "309c5548-af77-498a-ab17-47aedb268092",
+        "order_date": "2023-09-28T22:02:06.217Z",
+        "delivery_date": "2023-09-29T02:04:21.932Z",
+        "total_price": 84639,
+        "created_at": "2023-09-28T23:39:54.271Z",
+        "updated_at": "2023-09-28T11:59:51.863Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13317323-506c-49fe-96d4-d8c09f342277",
+        "order_date": "2023-09-29T05:31:49.617Z",
+        "delivery_date": "2023-09-28T16:18:12.939Z",
+        "total_price": 9958,
+        "created_at": "2023-09-28T21:13:45.445Z",
+        "updated_at": "2023-09-28T21:06:21.960Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce3c3724-fcdf-4236-b592-b95017fd8434",
+        "order_date": "2023-09-28T17:54:02.872Z",
+        "delivery_date": "2023-09-29T00:07:20.725Z",
+        "total_price": 48812,
+        "created_at": "2023-09-28T12:11:59.592Z",
+        "updated_at": "2023-09-29T02:40:05.098Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "056d7901-a4c8-442b-82f3-fa5b4711affe",
+        "order_date": "2023-09-29T03:46:03.041Z",
+        "delivery_date": "2023-09-29T05:40:16.097Z",
+        "total_price": 65386,
+        "created_at": "2023-09-28T15:19:16.692Z",
+        "updated_at": "2023-09-29T05:33:43.656Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde540a5-54f5-48e1-8abc-515aa65f5bac",
+        "order_date": "2023-09-28T06:08:53.449Z",
+        "delivery_date": "2023-09-29T06:06:52.630Z",
+        "total_price": 68895,
+        "created_at": "2023-09-28T07:23:50.693Z",
+        "updated_at": "2023-09-28T22:11:58.194Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f5ce6f32-9d48-4ae7-874b-948f94f393ee",
+        "name": "Apples",
+        "quantity": 49497,
+        "price": 17913,
+        "expiry_date": "2023-09-28T09:45:20.034Z",
+        "created_at": "2023-09-28T11:40:34.524Z",
+        "updated_at": "2023-09-28T07:22:14.034Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "dd53819f-8c76-4732-a510-58cc5018e9a9",
+        "name": "Bananas",
+        "quantity": 27300,
+        "price": 62873,
+        "expiry_date": "2023-09-28T16:34:03.029Z",
+        "created_at": "2023-09-28T06:54:37.612Z",
+        "updated_at": "2023-09-29T02:01:08.419Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "5e5a39af-2b2c-4c4d-85b4-e16db2cafcfd",
+        "name": "Milk",
+        "quantity": 45234,
+        "price": 21392,
+        "expiry_date": "2023-09-28T23:34:33.372Z",
+        "created_at": "2023-09-28T07:19:59.616Z",
+        "updated_at": "2023-09-28T16:03:39.204Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "4d408309-2964-420d-86c2-898697132c09",
+        "name": "Bread",
+        "quantity": 25667,
+        "price": 70405,
+        "expiry_date": "2023-09-28T12:21:49.963Z",
+        "created_at": "2023-09-28T09:17:20.275Z",
+        "updated_at": "2023-09-28T12:59:45.423Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "741f81cc-3351-4894-8d3c-eafd8beb3811",
+        "name": "Eggs",
+        "quantity": 89268,
+        "price": 55061,
+        "expiry_date": "2023-09-28T17:16:33.983Z",
+        "created_at": "2023-09-28T18:33:16.458Z",
+        "updated_at": "2023-09-28T06:45:11.538Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "562f12fa-5828-453a-acc6-fe2b81a42809",
+        "quantity": 25334,
+        "price": 22806,
+        "created_at": "2023-09-28T17:08:39.525Z",
+        "updated_at": "2023-09-28T15:01:29.303Z",
+        "inventory_id": "741f81cc-3351-4894-8d3c-eafd8beb3811",
+        "order_id": "056d7901-a4c8-442b-82f3-fa5b4711affe"
+      },
+      {
+        "id": "53ee873d-2fa1-4d56-ae33-f8c94ee1faed",
+        "quantity": 33863,
+        "price": 18677,
+        "created_at": "2023-09-28T19:58:31.158Z",
+        "updated_at": "2023-09-28T23:00:49.365Z",
+        "inventory_id": "741f81cc-3351-4894-8d3c-eafd8beb3811",
+        "order_id": "13317323-506c-49fe-96d4-d8c09f342277"
+      },
+      {
+        "id": "7f0851eb-b06f-4325-8248-99ce33e6fdc9",
+        "quantity": 75481,
+        "price": 90648,
+        "created_at": "2023-09-28T09:59:44.746Z",
+        "updated_at": "2023-09-28T20:46:36.598Z",
+        "inventory_id": "4d408309-2964-420d-86c2-898697132c09",
+        "order_id": "13317323-506c-49fe-96d4-d8c09f342277"
+      },
+      {
+        "id": "1ed5877b-d56f-47ee-bb5b-a5af675fafa8",
+        "quantity": 5040,
+        "price": 39159,
+        "created_at": "2023-09-28T10:24:52.606Z",
+        "updated_at": "2023-09-28T15:33:19.928Z",
+        "inventory_id": "dd53819f-8c76-4732-a510-58cc5018e9a9",
+        "order_id": "13317323-506c-49fe-96d4-d8c09f342277"
+      },
+      {
+        "id": "44378444-dfa1-40bf-9d4e-00fe078b81ca",
+        "quantity": 86623,
+        "price": 92361,
+        "created_at": "2023-09-29T03:52:35.394Z",
+        "updated_at": "2023-09-28T18:36:07.151Z",
+        "inventory_id": "f5ce6f32-9d48-4ae7-874b-948f94f393ee",
+        "order_id": "fde540a5-54f5-48e1-8abc-515aa65f5bac"
+      }
+    ],
+    "discount": [
+      {
+        "id": "c0080476-1da1-41fc-8082-a88865c6f3fe",
+        "discount_percentage": 64831,
+        "start_date": "2023-09-29T00:39:04.651Z",
+        "end_date": "2023-09-28T23:49:16.212Z",
+        "created_at": "2023-09-28T18:13:51.222Z",
+        "updated_at": "2023-09-28T14:27:08.138Z",
+        "inventory_id": "5e5a39af-2b2c-4c4d-85b4-e16db2cafcfd"
+      },
+      {
+        "id": "a1f5d3aa-6629-4953-b673-3f5e879465cc",
+        "discount_percentage": 72946,
+        "start_date": "2023-09-29T03:11:41.734Z",
+        "end_date": "2023-09-28T19:06:03.556Z",
+        "created_at": "2023-09-28T07:55:13.902Z",
+        "updated_at": "2023-09-28T07:50:45.307Z",
+        "inventory_id": "f5ce6f32-9d48-4ae7-874b-948f94f393ee"
+      },
+      {
+        "id": "8927ccf5-7de5-40d0-9dac-dec58703f33b",
+        "discount_percentage": 55910,
+        "start_date": "2023-09-28T16:43:48.272Z",
+        "end_date": "2023-09-28T23:11:57.285Z",
+        "created_at": "2023-09-29T02:48:56.992Z",
+        "updated_at": "2023-09-28T10:46:10.129Z",
+        "inventory_id": "741f81cc-3351-4894-8d3c-eafd8beb3811"
+      },
+      {
+        "id": "2c16ee72-698e-4f68-a95f-bd0ff34d2745",
+        "discount_percentage": 29976,
+        "start_date": "2023-09-28T10:46:00.369Z",
+        "end_date": "2023-09-28T12:33:20.764Z",
+        "created_at": "2023-09-28T17:11:05.271Z",
+        "updated_at": "2023-09-28T22:36:09.112Z",
+        "inventory_id": "741f81cc-3351-4894-8d3c-eafd8beb3811"
+      },
+      {
+        "id": "f1314080-bcc9-48e2-b5a8-0217d6a45993",
+        "discount_percentage": 43505,
+        "start_date": "2023-09-28T14:58:38.196Z",
+        "end_date": "2023-09-28T14:02:22.761Z",
+        "created_at": "2023-09-29T02:57:03.279Z",
+        "updated_at": "2023-09-28T10:39:49.197Z",
+        "inventory_id": "5e5a39af-2b2c-4c4d-85b4-e16db2cafcfd"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9156f0a5-c4fd-478d-903e-bf88d27da753",
+        "email": "Syble.Kohler@roq.tech",
+        "firstName": "Zora",
+        "lastName": "Marks-Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60641457",
+        "tenantId": null
+      },
+      {
+        "reference": "a383442d-50eb-402d-b85e-e079b708df4e",
+        "email": "Ruthe.Lebsack66@roq.tech",
+        "firstName": "Bobby",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "554ec33a-b614-4199-b9be-e24f9f8b0b8f",
+        "email": "Amelie61@roq.tech",
+        "firstName": "Mylene",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4f0752a-825a-4425-8fbc-92a530b19ec6",
+        "email": "Neva.Vandervort16@roq.tech",
+        "firstName": "Ava",
+        "lastName": "Hermiston-Auer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64418357",
+        "tenantId": null
+      },
+      {
+        "reference": "5134f643-a9a9-4263-ae12-b92163d2545f",
+        "email": "Emmalee19@roq.tech",
+        "firstName": "Meaghan",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/456.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "1f11fa47-15cc-4a8e-9ca3-df8ea7bd46de",
+        "order_date": "2023-09-29T05:48:42.332Z",
+        "delivery_date": "2023-09-28T23:11:45.145Z",
+        "total_price": 91666,
+        "created_at": "2023-09-28T16:27:43.080Z",
+        "updated_at": "2023-09-28T19:52:52.015Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07705593-341f-4e22-b1f1-6d914cbaf8a7",
+        "order_date": "2023-09-28T17:13:50.462Z",
+        "delivery_date": "2023-09-28T13:04:39.457Z",
+        "total_price": 3418,
+        "created_at": "2023-09-28T22:27:02.996Z",
+        "updated_at": "2023-09-29T04:13:57.496Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5aeec8b-77c5-4651-96d6-b347d222ecde",
+        "order_date": "2023-09-28T18:29:32.111Z",
+        "delivery_date": "2023-09-28T09:18:15.815Z",
+        "total_price": 42277,
+        "created_at": "2023-09-28T22:47:54.943Z",
+        "updated_at": "2023-09-28T12:18:11.330Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e8a56ec-fa02-4b9d-a963-baf1029172c4",
+        "order_date": "2023-09-28T11:27:11.383Z",
+        "delivery_date": "2023-09-29T01:47:56.812Z",
+        "total_price": 16572,
+        "created_at": "2023-09-29T03:11:10.856Z",
+        "updated_at": "2023-09-28T10:17:59.753Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "534a7dee-f427-4814-a7d2-f18062ff76e8",
+        "order_date": "2023-09-28T12:07:00.005Z",
+        "delivery_date": "2023-09-28T23:28:04.407Z",
+        "total_price": 18288,
+        "created_at": "2023-09-28T13:44:32.472Z",
+        "updated_at": "2023-09-28T08:42:36.259Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "15d68164-022c-4313-b67d-14befdc3a014",
+        "name": "Apples",
+        "quantity": 76670,
+        "price": 70609,
+        "expiry_date": "2023-09-28T09:09:34.540Z",
+        "created_at": "2023-09-28T18:03:58.890Z",
+        "updated_at": "2023-09-28T12:56:04.815Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "d3bd2718-9d19-4f49-9bd6-57733230f334",
+        "name": "Bananas",
+        "quantity": 58425,
+        "price": 8795,
+        "expiry_date": "2023-09-29T03:28:03.569Z",
+        "created_at": "2023-09-29T02:08:16.872Z",
+        "updated_at": "2023-09-28T13:17:23.985Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "31cee930-0ac2-44d4-9426-3e152614bc9f",
+        "name": "Oranges",
+        "quantity": 70491,
+        "price": 59675,
+        "expiry_date": "2023-09-28T09:15:12.416Z",
+        "created_at": "2023-09-28T06:23:23.382Z",
+        "updated_at": "2023-09-28T06:51:36.455Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "0fcc7f42-3a3d-4c6b-af9d-3fb5cb98e340",
+        "name": "Grapes",
+        "quantity": 83201,
+        "price": 16259,
+        "expiry_date": "2023-09-28T19:01:38.465Z",
+        "created_at": "2023-09-29T02:57:51.172Z",
+        "updated_at": "2023-09-28T16:31:26.411Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "d269804e-2e75-4270-a624-738efd376ee2",
+        "name": "Strawberries",
+        "quantity": 48009,
+        "price": 18280,
+        "expiry_date": "2023-09-28T23:37:26.607Z",
+        "created_at": "2023-09-28T10:49:42.756Z",
+        "updated_at": "2023-09-29T00:48:59.553Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "84f7d816-7a73-457e-816d-72e0e403faac",
+        "quantity": 84564,
+        "price": 3058,
+        "created_at": "2023-09-29T01:57:57.680Z",
+        "updated_at": "2023-09-28T07:56:49.954Z",
+        "inventory_id": "31cee930-0ac2-44d4-9426-3e152614bc9f",
+        "order_id": "07705593-341f-4e22-b1f1-6d914cbaf8a7"
+      },
+      {
+        "id": "d81cc947-c434-4534-b1e8-3e2d96e1b023",
+        "quantity": 46468,
+        "price": 38989,
+        "created_at": "2023-09-28T08:55:29.991Z",
+        "updated_at": "2023-09-29T00:43:12.700Z",
+        "inventory_id": "0fcc7f42-3a3d-4c6b-af9d-3fb5cb98e340",
+        "order_id": "6e8a56ec-fa02-4b9d-a963-baf1029172c4"
+      },
+      {
+        "id": "37c1b6af-b8f4-4eb9-a222-612605e94b0c",
+        "quantity": 43111,
+        "price": 41367,
+        "created_at": "2023-09-29T04:11:58.924Z",
+        "updated_at": "2023-09-28T22:32:40.603Z",
+        "inventory_id": "15d68164-022c-4313-b67d-14befdc3a014",
+        "order_id": "a5aeec8b-77c5-4651-96d6-b347d222ecde"
+      },
+      {
+        "id": "9fbbd8f4-23e4-4da9-a516-6822ba406301",
+        "quantity": 479,
+        "price": 52041,
+        "created_at": "2023-09-29T02:24:57.126Z",
+        "updated_at": "2023-09-29T02:39:51.057Z",
+        "inventory_id": "d269804e-2e75-4270-a624-738efd376ee2",
+        "order_id": "a5aeec8b-77c5-4651-96d6-b347d222ecde"
+      },
+      {
+        "id": "5b4b926f-1be1-4124-a2ae-c2e47a76a660",
+        "quantity": 7671,
+        "price": 80940,
+        "created_at": "2023-09-28T15:16:35.179Z",
+        "updated_at": "2023-09-28T14:42:37.760Z",
+        "inventory_id": "31cee930-0ac2-44d4-9426-3e152614bc9f",
+        "order_id": "6e8a56ec-fa02-4b9d-a963-baf1029172c4"
+      }
+    ],
+    "discount": [
+      {
+        "id": "45ebd1a0-8864-4ef5-888b-7e9f0549159a",
+        "discount_percentage": 77614,
+        "start_date": "2023-09-28T20:37:01.526Z",
+        "end_date": "2023-09-28T17:40:57.146Z",
+        "created_at": "2023-09-29T00:21:03.746Z",
+        "updated_at": "2023-09-28T07:52:59.716Z",
+        "inventory_id": "31cee930-0ac2-44d4-9426-3e152614bc9f"
+      },
+      {
+        "id": "79f049d5-8b7c-42b2-a5e5-1e758ad1deb6",
+        "discount_percentage": 36996,
+        "start_date": "2023-09-28T10:36:09.893Z",
+        "end_date": "2023-09-28T22:13:14.871Z",
+        "created_at": "2023-09-28T16:50:42.413Z",
+        "updated_at": "2023-09-28T22:36:38.416Z",
+        "inventory_id": "31cee930-0ac2-44d4-9426-3e152614bc9f"
+      },
+      {
+        "id": "15b4d6e1-189b-421a-8939-450a8757ccb5",
+        "discount_percentage": 1487,
+        "start_date": "2023-09-28T18:13:21.993Z",
+        "end_date": "2023-09-28T22:16:06.578Z",
+        "created_at": "2023-09-28T21:23:06.698Z",
+        "updated_at": "2023-09-28T11:43:32.600Z",
+        "inventory_id": "15d68164-022c-4313-b67d-14befdc3a014"
+      },
+      {
+        "id": "b6f49881-285e-4574-acd2-f1c43f757c54",
+        "discount_percentage": 40521,
+        "start_date": "2023-09-28T11:33:57.624Z",
+        "end_date": "2023-09-29T05:24:30.453Z",
+        "created_at": "2023-09-28T12:26:10.672Z",
+        "updated_at": "2023-09-29T05:57:58.775Z",
+        "inventory_id": "d269804e-2e75-4270-a624-738efd376ee2"
+      },
+      {
+        "id": "40546df8-2275-45d7-bad8-3397e05fea81",
+        "discount_percentage": 42234,
+        "start_date": "2023-09-28T16:05:41.859Z",
+        "end_date": "2023-09-28T16:15:59.389Z",
+        "created_at": "2023-09-28T10:46:42.021Z",
+        "updated_at": "2023-09-29T03:15:54.397Z",
+        "inventory_id": "d269804e-2e75-4270-a624-738efd376ee2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c471370-92a5-427c-8a70-8d65397cec4b",
+        "email": "Yasmine.Thompson@roq.tech",
+        "firstName": "Alexie",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/314.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "db63ece2-d164-4738-abed-083fbe6f1707",
+        "email": "Nils_Treutel@roq.tech",
+        "firstName": "Ellsworth",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/499.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29abf617-95e7-442a-a30a-bc2e638d0d46",
+        "email": "Tyler.Mayert34@roq.tech",
+        "firstName": "Evans",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84355653",
+        "tenantId": null
+      },
+      {
+        "reference": "5619b1e4-901a-4a89-ad1b-66b8dc18bdb1",
+        "email": "Emie67@roq.tech",
+        "firstName": "Selina",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40073198",
+        "tenantId": null
+      },
+      {
+        "reference": "0277b517-a0b2-4556-b1d5-0a4e25975359",
+        "email": "Jaqueline_Yundt1@roq.tech",
+        "firstName": "Raquel",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/402.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "06fd5dc4-7e73-429d-a991-19be52623bba",
+        "order_date": "2023-09-29T03:58:34.263Z",
+        "delivery_date": "2023-09-28T21:55:56.959Z",
+        "total_price": 52196,
+        "created_at": "2023-09-28T15:52:59.706Z",
+        "updated_at": "2023-09-29T02:16:12.166Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d922d78-2ea4-4608-b11b-4b337d1ab643",
+        "order_date": "2023-09-29T01:21:28.357Z",
+        "delivery_date": "2023-09-28T18:46:24.587Z",
+        "total_price": 75835,
+        "created_at": "2023-09-29T05:50:32.737Z",
+        "updated_at": "2023-09-29T00:14:52.814Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5560e56-c1a3-47a9-971a-1fc3771cef73",
+        "order_date": "2023-09-29T02:26:15.074Z",
+        "delivery_date": "2023-09-28T06:41:46.702Z",
+        "total_price": 13331,
+        "created_at": "2023-09-29T02:21:23.930Z",
+        "updated_at": "2023-09-29T04:21:08.811Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5dbdab8-ebaf-45d3-be9c-c3fff4d59b1d",
+        "order_date": "2023-09-28T09:13:31.455Z",
+        "delivery_date": "2023-09-28T20:58:50.809Z",
+        "total_price": 23327,
+        "created_at": "2023-09-28T22:36:58.042Z",
+        "updated_at": "2023-09-28T16:02:56.146Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eeb0029d-2701-4bf6-a993-5cb9ae01e3a2",
+        "order_date": "2023-09-28T11:44:09.236Z",
+        "delivery_date": "2023-09-28T16:20:39.484Z",
+        "total_price": 24224,
+        "created_at": "2023-09-29T02:26:05.817Z",
+        "updated_at": "2023-09-28T15:04:26.610Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "33504d31-d3d6-40e7-b0ad-1da7d860135b",
+        "name": "Apples",
+        "quantity": 29944,
+        "price": 64509,
+        "expiry_date": "2023-09-29T04:43:58.922Z",
+        "created_at": "2023-09-29T00:41:23.344Z",
+        "updated_at": "2023-09-28T08:52:38.009Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "f8397a29-c888-4b4d-b951-da984d01dcee",
+        "name": "Bananas",
+        "quantity": 14625,
+        "price": 21942,
+        "expiry_date": "2023-09-29T03:04:13.474Z",
+        "created_at": "2023-09-28T13:30:21.064Z",
+        "updated_at": "2023-09-29T01:54:03.362Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "8f771f12-0e70-4c51-8eda-808896b76e43",
+        "name": "Milk",
+        "quantity": 33088,
+        "price": 76048,
+        "expiry_date": "2023-09-29T02:42:14.252Z",
+        "created_at": "2023-09-28T07:18:47.852Z",
+        "updated_at": "2023-09-29T01:09:04.253Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "59c04163-7df2-49b5-830c-6ad329b98d92",
+        "name": "Bread",
+        "quantity": 22148,
+        "price": 35864,
+        "expiry_date": "2023-09-28T12:29:00.794Z",
+        "created_at": "2023-09-28T16:28:49.188Z",
+        "updated_at": "2023-09-28T13:34:13.249Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "fe60913c-b2e9-4c01-a97c-db94a1677c32",
+        "name": "Eggs",
+        "quantity": 34701,
+        "price": 58859,
+        "expiry_date": "2023-09-28T13:32:55.454Z",
+        "created_at": "2023-09-28T11:12:18.420Z",
+        "updated_at": "2023-09-28T08:52:11.992Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "3ada96a6-25b4-4df4-aaf8-fbda550d7940",
+        "quantity": 75421,
+        "price": 89138,
+        "created_at": "2023-09-28T16:04:03.306Z",
+        "updated_at": "2023-09-28T07:12:00.427Z",
+        "inventory_id": "33504d31-d3d6-40e7-b0ad-1da7d860135b",
+        "order_id": "d5560e56-c1a3-47a9-971a-1fc3771cef73"
+      },
+      {
+        "id": "a5bcbfab-0be6-4929-840a-d3dfbdcee71d",
+        "quantity": 45180,
+        "price": 44718,
+        "created_at": "2023-09-28T11:08:12.443Z",
+        "updated_at": "2023-09-28T23:40:10.408Z",
+        "inventory_id": "f8397a29-c888-4b4d-b951-da984d01dcee",
+        "order_id": "e5dbdab8-ebaf-45d3-be9c-c3fff4d59b1d"
+      },
+      {
+        "id": "3e5666e0-f1c3-4074-bc36-338d2f362ea5",
+        "quantity": 27591,
+        "price": 36048,
+        "created_at": "2023-09-28T13:28:51.627Z",
+        "updated_at": "2023-09-28T10:35:04.359Z",
+        "inventory_id": "f8397a29-c888-4b4d-b951-da984d01dcee",
+        "order_id": "d5560e56-c1a3-47a9-971a-1fc3771cef73"
+      },
+      {
+        "id": "69a50dc2-420e-46bf-8503-914825e8627f",
+        "quantity": 85381,
+        "price": 58322,
+        "created_at": "2023-09-28T20:52:55.623Z",
+        "updated_at": "2023-09-28T18:07:23.533Z",
+        "inventory_id": "33504d31-d3d6-40e7-b0ad-1da7d860135b",
+        "order_id": "8d922d78-2ea4-4608-b11b-4b337d1ab643"
+      },
+      {
+        "id": "a5008027-8801-43dc-8e7c-17b1c60f597f",
+        "quantity": 10841,
+        "price": 37650,
+        "created_at": "2023-09-28T20:27:51.583Z",
+        "updated_at": "2023-09-28T23:22:18.869Z",
+        "inventory_id": "59c04163-7df2-49b5-830c-6ad329b98d92",
+        "order_id": "8d922d78-2ea4-4608-b11b-4b337d1ab643"
+      }
+    ],
+    "discount": [
+      {
+        "id": "3cda451e-0e5f-449f-99e5-5bec0db956a4",
+        "discount_percentage": 59848,
+        "start_date": "2023-09-28T22:26:11.978Z",
+        "end_date": "2023-09-28T20:56:06.098Z",
+        "created_at": "2023-09-28T17:07:37.694Z",
+        "updated_at": "2023-09-28T07:08:59.539Z",
+        "inventory_id": "33504d31-d3d6-40e7-b0ad-1da7d860135b"
+      },
+      {
+        "id": "8f299319-6bb4-4049-ad20-3b9fe0cf0e17",
+        "discount_percentage": 56919,
+        "start_date": "2023-09-28T11:33:41.381Z",
+        "end_date": "2023-09-28T17:48:38.580Z",
+        "created_at": "2023-09-28T13:45:56.557Z",
+        "updated_at": "2023-09-28T06:29:30.852Z",
+        "inventory_id": "fe60913c-b2e9-4c01-a97c-db94a1677c32"
+      },
+      {
+        "id": "bd6b8b5d-dc6c-4fb3-b1db-4d34fff45a3a",
+        "discount_percentage": 89021,
+        "start_date": "2023-09-28T13:33:07.856Z",
+        "end_date": "2023-09-28T14:09:01.023Z",
+        "created_at": "2023-09-28T23:28:00.905Z",
+        "updated_at": "2023-09-28T15:06:44.708Z",
+        "inventory_id": "fe60913c-b2e9-4c01-a97c-db94a1677c32"
+      },
+      {
+        "id": "4df90cff-aba3-496e-9a0a-8e2a61acad0d",
+        "discount_percentage": 8791,
+        "start_date": "2023-09-29T00:04:14.919Z",
+        "end_date": "2023-09-29T01:55:17.765Z",
+        "created_at": "2023-09-28T12:39:21.913Z",
+        "updated_at": "2023-09-28T12:11:35.128Z",
+        "inventory_id": "33504d31-d3d6-40e7-b0ad-1da7d860135b"
+      },
+      {
+        "id": "041c6eb6-f72c-4683-9f0c-63d3a779bcec",
+        "discount_percentage": 93185,
+        "start_date": "2023-09-28T14:26:09.228Z",
+        "end_date": "2023-09-29T05:17:30.633Z",
+        "created_at": "2023-09-28T21:32:56.574Z",
+        "updated_at": "2023-09-28T09:24:08.745Z",
+        "inventory_id": "59c04163-7df2-49b5-830c-6ad329b98d92"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ac1418aa-3b00-4023-bb20-4f8c6468d825",
+        "email": "Darlene21@roq.tech",
+        "firstName": "Gail",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79477311",
+        "tenantId": null
+      },
+      {
+        "reference": "577bcef4-ded2-449e-9296-818397b87c52",
+        "email": "Heber_Braun@roq.tech",
+        "firstName": "Dane",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1106.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc735661-4693-4bf4-a897-5fba507e419b",
+        "email": "Francesca2@roq.tech",
+        "firstName": "Ansel",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37396844",
+        "tenantId": null
+      },
+      {
+        "reference": "76d4c63f-2ac7-41a1-b443-a6f7b562ea1a",
+        "email": "Cornell.Cruickshank86@roq.tech",
+        "firstName": "Elias",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b178e058-f044-4bbd-8952-d7a0fc6db402",
+        "email": "Josh.Mohr@roq.tech",
+        "firstName": "Mitchel",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49302693",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "e5bb1bca-539a-4169-86d4-673dbddf9c85",
+        "order_date": "2023-09-28T07:42:17.770Z",
+        "delivery_date": "2023-09-28T15:09:35.007Z",
+        "total_price": 95261,
+        "created_at": "2023-09-28T22:28:53.315Z",
+        "updated_at": "2023-09-28T21:54:50.139Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "87f7925b-d31a-431b-9ab9-a744d9a8eb88",
+        "order_date": "2023-09-28T09:46:36.744Z",
+        "delivery_date": "2023-09-29T04:30:15.198Z",
+        "total_price": 90962,
+        "created_at": "2023-09-28T23:50:37.252Z",
+        "updated_at": "2023-09-28T18:39:36.191Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5bc4511-a2fa-4a35-af88-0cbb0e39db7b",
+        "order_date": "2023-09-28T13:03:12.718Z",
+        "delivery_date": "2023-09-28T21:10:10.634Z",
+        "total_price": 69443,
+        "created_at": "2023-09-28T17:20:55.905Z",
+        "updated_at": "2023-09-29T01:05:08.141Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d098492a-f81a-4c45-95d6-72092504196a",
+        "order_date": "2023-09-29T04:15:07.029Z",
+        "delivery_date": "2023-09-29T05:10:41.962Z",
+        "total_price": 86834,
+        "created_at": "2023-09-29T02:32:59.569Z",
+        "updated_at": "2023-09-28T19:20:43.215Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "868b01d1-a2fb-45f2-9954-a70bcdc74f71",
+        "order_date": "2023-09-28T06:28:28.273Z",
+        "delivery_date": "2023-09-28T18:49:17.528Z",
+        "total_price": 28521,
+        "created_at": "2023-09-28T12:05:21.557Z",
+        "updated_at": "2023-09-28T14:20:31.534Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "959016a7-1b6c-4045-b1eb-89b299f7133e",
+        "name": "Apples",
+        "quantity": 13323,
+        "price": 23623,
+        "expiry_date": "2023-09-28T07:44:36.274Z",
+        "created_at": "2023-09-28T23:09:20.916Z",
+        "updated_at": "2023-09-29T03:05:27.293Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "fa92bf56-62d6-490a-89d1-1361f988555e",
+        "name": "Bananas",
+        "quantity": 48881,
+        "price": 32596,
+        "expiry_date": "2023-09-29T00:22:55.734Z",
+        "created_at": "2023-09-28T14:10:05.650Z",
+        "updated_at": "2023-09-28T16:19:48.059Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "e6c1997b-33a8-46b7-8ac6-694b65fcc733",
+        "name": "Oranges",
+        "quantity": 33235,
+        "price": 47363,
+        "expiry_date": "2023-09-28T07:10:01.442Z",
+        "created_at": "2023-09-28T06:10:04.914Z",
+        "updated_at": "2023-09-28T07:28:00.308Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "305e09f2-3529-4fc0-a30c-a4ba613aa2a3",
+        "name": "Tomatoes",
+        "quantity": 64970,
+        "price": 96519,
+        "expiry_date": "2023-09-28T19:55:37.343Z",
+        "created_at": "2023-09-28T22:33:06.094Z",
+        "updated_at": "2023-09-29T03:24:22.349Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "ce628506-25f8-4232-b3a8-dc15e1eab67a",
+        "name": "Potatoes",
+        "quantity": 36695,
+        "price": 45264,
+        "expiry_date": "2023-09-28T18:43:27.750Z",
+        "created_at": "2023-09-28T19:08:24.214Z",
+        "updated_at": "2023-09-28T11:53:08.679Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "a5137e88-4514-4a64-bcdb-3a0701e6dcfa",
+        "quantity": 70047,
+        "price": 24912,
+        "created_at": "2023-09-29T03:02:02.049Z",
+        "updated_at": "2023-09-28T09:08:12.671Z",
+        "inventory_id": "e6c1997b-33a8-46b7-8ac6-694b65fcc733",
+        "order_id": "868b01d1-a2fb-45f2-9954-a70bcdc74f71"
+      },
+      {
+        "id": "c1ef3c7e-fdf6-4c51-a0ad-7ef6b61a4ef7",
+        "quantity": 96664,
+        "price": 98671,
+        "created_at": "2023-09-28T09:35:16.370Z",
+        "updated_at": "2023-09-29T00:11:25.036Z",
+        "inventory_id": "305e09f2-3529-4fc0-a30c-a4ba613aa2a3",
+        "order_id": "d5bc4511-a2fa-4a35-af88-0cbb0e39db7b"
+      },
+      {
+        "id": "fe0a8798-28dc-4349-8c01-25c84d67a390",
+        "quantity": 42776,
+        "price": 98354,
+        "created_at": "2023-09-29T00:21:01.216Z",
+        "updated_at": "2023-09-28T10:06:02.970Z",
+        "inventory_id": "ce628506-25f8-4232-b3a8-dc15e1eab67a",
+        "order_id": "868b01d1-a2fb-45f2-9954-a70bcdc74f71"
+      },
+      {
+        "id": "87d7f4f0-bf76-4daf-ab17-166f6b273389",
+        "quantity": 93173,
+        "price": 35762,
+        "created_at": "2023-09-28T18:32:45.587Z",
+        "updated_at": "2023-09-28T23:30:30.248Z",
+        "inventory_id": "305e09f2-3529-4fc0-a30c-a4ba613aa2a3",
+        "order_id": "d5bc4511-a2fa-4a35-af88-0cbb0e39db7b"
+      },
+      {
+        "id": "726849e1-e924-41c6-836f-e67c3e3c0067",
+        "quantity": 53326,
+        "price": 82842,
+        "created_at": "2023-09-28T19:15:28.676Z",
+        "updated_at": "2023-09-28T11:37:58.542Z",
+        "inventory_id": "ce628506-25f8-4232-b3a8-dc15e1eab67a",
+        "order_id": "e5bb1bca-539a-4169-86d4-673dbddf9c85"
+      }
+    ],
+    "discount": [
+      {
+        "id": "b32aeaf9-248b-49a1-9a39-9ed1d62f45b0",
+        "discount_percentage": 5398,
+        "start_date": "2023-09-28T08:19:47.173Z",
+        "end_date": "2023-09-29T00:56:33.521Z",
+        "created_at": "2023-09-28T19:36:46.944Z",
+        "updated_at": "2023-09-28T23:06:04.258Z",
+        "inventory_id": "e6c1997b-33a8-46b7-8ac6-694b65fcc733"
+      },
+      {
+        "id": "14b47273-3e12-454e-b704-72f48358ab1e",
+        "discount_percentage": 89382,
+        "start_date": "2023-09-28T13:32:23.517Z",
+        "end_date": "2023-09-29T05:24:56.126Z",
+        "created_at": "2023-09-28T14:14:51.958Z",
+        "updated_at": "2023-09-29T00:25:57.514Z",
+        "inventory_id": "959016a7-1b6c-4045-b1eb-89b299f7133e"
+      },
+      {
+        "id": "6c89fdbb-70cc-47ff-9c83-b539352f1a6f",
+        "discount_percentage": 26389,
+        "start_date": "2023-09-28T22:25:43.274Z",
+        "end_date": "2023-09-28T07:53:29.485Z",
+        "created_at": "2023-09-28T11:48:57.662Z",
+        "updated_at": "2023-09-29T03:19:23.767Z",
+        "inventory_id": "305e09f2-3529-4fc0-a30c-a4ba613aa2a3"
+      },
+      {
+        "id": "efd898ae-5b83-4241-8cfb-ba1a86ff63cf",
+        "discount_percentage": 56889,
+        "start_date": "2023-09-28T13:15:17.954Z",
+        "end_date": "2023-09-28T14:04:38.732Z",
+        "created_at": "2023-09-28T23:56:30.368Z",
+        "updated_at": "2023-09-29T01:32:27.842Z",
+        "inventory_id": "e6c1997b-33a8-46b7-8ac6-694b65fcc733"
+      },
+      {
+        "id": "732ccd11-8153-466f-b345-bf023c83b490",
+        "discount_percentage": 8503,
+        "start_date": "2023-09-29T02:43:48.448Z",
+        "end_date": "2023-09-29T03:41:42.216Z",
+        "created_at": "2023-09-29T00:43:14.406Z",
+        "updated_at": "2023-09-28T13:13:02.012Z",
+        "inventory_id": "959016a7-1b6c-4045-b1eb-89b299f7133e"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1c94e808-6d39-4d16-896e-56fbab66aafa",
+        "email": "Jovani61@roq.tech",
+        "firstName": "Chase",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/192463",
+        "tenantId": null
+      },
+      {
+        "reference": "52cc346d-4347-4344-844c-7f69290db21f",
+        "email": "Rosamond.Raynor-Cummerata@roq.tech",
+        "firstName": "Alexandria",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44035241",
+        "tenantId": null
+      },
+      {
+        "reference": "ed2c26e3-1daa-4fd0-a86f-01065c2b7dfe",
+        "email": "Mason_Rau65@roq.tech",
+        "firstName": "Rosalyn",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/626.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16734427-b090-4556-b37e-ffdf53c8eda0",
+        "email": "Lance.Schoen77@roq.tech",
+        "firstName": "Eulah",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd069a4d-6a85-44d0-9e31-499f0c3825db",
+        "email": "Gerry51@roq.tech",
+        "firstName": "Will",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "3b7cad1c-85d2-4d44-931f-f196521b1767",
+        "order_date": "2023-09-28T10:51:31.279Z",
+        "delivery_date": "2023-09-28T23:59:53.399Z",
+        "total_price": 45878,
+        "created_at": "2023-09-28T11:20:21.519Z",
+        "updated_at": "2023-09-28T17:48:54.700Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "287eb7e5-50ac-4e43-a4f1-9520967649cc",
+        "order_date": "2023-09-28T11:25:23.898Z",
+        "delivery_date": "2023-09-29T00:21:56.058Z",
+        "total_price": 3736,
+        "created_at": "2023-09-29T00:47:53.409Z",
+        "updated_at": "2023-09-29T05:02:32.230Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6e790f5-0bb1-48ca-ae89-3a406cd44e08",
+        "order_date": "2023-09-28T12:53:12.887Z",
+        "delivery_date": "2023-09-28T18:05:28.535Z",
+        "total_price": 74262,
+        "created_at": "2023-09-28T10:18:32.588Z",
+        "updated_at": "2023-09-28T17:14:18.899Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7156c20f-4a62-4b49-ba17-07c27c9fb620",
+        "order_date": "2023-09-28T15:06:39.513Z",
+        "delivery_date": "2023-09-28T21:39:56.897Z",
+        "total_price": 14510,
+        "created_at": "2023-09-28T08:03:50.778Z",
+        "updated_at": "2023-09-28T12:35:13.707Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05a361a9-aea6-47cc-9764-5c587a9ad531",
+        "order_date": "2023-09-28T15:03:58.808Z",
+        "delivery_date": "2023-09-28T17:29:24.490Z",
+        "total_price": 3059,
+        "created_at": "2023-09-28T08:46:33.797Z",
+        "updated_at": "2023-09-29T06:03:36.486Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "74cbe40f-2038-4181-a7a5-d6c8dce20723",
+        "name": "Apples",
+        "quantity": 21275,
+        "price": 58563,
+        "expiry_date": "2023-09-28T22:13:19.075Z",
+        "created_at": "2023-09-29T02:51:37.704Z",
+        "updated_at": "2023-09-28T23:38:40.361Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "69ef51a8-5acb-4a1b-95b7-69472a85ccf9",
+        "name": "Bananas",
+        "quantity": 3923,
+        "price": 6252,
+        "expiry_date": "2023-09-28T14:26:54.275Z",
+        "created_at": "2023-09-28T11:07:47.404Z",
+        "updated_at": "2023-09-28T13:44:25.991Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "53686682-850b-4e72-bbb7-4c2bd4dcd984",
+        "name": "Carrots",
+        "quantity": 29956,
+        "price": 5334,
+        "expiry_date": "2023-09-28T21:00:58.846Z",
+        "created_at": "2023-09-29T03:44:09.626Z",
+        "updated_at": "2023-09-28T14:35:28.196Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "c254cc78-2194-4aa7-a2fc-39e1d1803d25",
+        "name": "Dairy Products",
+        "quantity": 45467,
+        "price": 69232,
+        "expiry_date": "2023-09-28T13:43:48.712Z",
+        "created_at": "2023-09-29T01:48:42.425Z",
+        "updated_at": "2023-09-28T15:59:13.680Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "1e6bf38d-e669-454c-a655-63697d17fdb2",
+        "name": "Eggs",
+        "quantity": 25182,
+        "price": 82685,
+        "expiry_date": "2023-09-28T18:30:24.658Z",
+        "created_at": "2023-09-28T07:59:57.470Z",
+        "updated_at": "2023-09-28T20:23:34.146Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "eaba5939-88f2-4d00-af13-c28f2e3512e4",
+        "quantity": 9509,
+        "price": 68205,
+        "created_at": "2023-09-28T22:23:33.098Z",
+        "updated_at": "2023-09-29T02:34:33.948Z",
+        "inventory_id": "c254cc78-2194-4aa7-a2fc-39e1d1803d25",
+        "order_id": "7156c20f-4a62-4b49-ba17-07c27c9fb620"
+      },
+      {
+        "id": "ba09b1a8-6ee7-4dbb-a23c-60dc2636e777",
+        "quantity": 69915,
+        "price": 41689,
+        "created_at": "2023-09-28T18:12:04.697Z",
+        "updated_at": "2023-09-28T14:28:57.293Z",
+        "inventory_id": "c254cc78-2194-4aa7-a2fc-39e1d1803d25",
+        "order_id": "05a361a9-aea6-47cc-9764-5c587a9ad531"
+      },
+      {
+        "id": "84d446d7-10e0-4f28-9e5b-20fd7372bda1",
+        "quantity": 63184,
+        "price": 91445,
+        "created_at": "2023-09-29T03:33:43.199Z",
+        "updated_at": "2023-09-28T10:16:46.452Z",
+        "inventory_id": "c254cc78-2194-4aa7-a2fc-39e1d1803d25",
+        "order_id": "287eb7e5-50ac-4e43-a4f1-9520967649cc"
+      },
+      {
+        "id": "c1198b6a-6cac-4c37-a00b-f5404cb45e55",
+        "quantity": 18508,
+        "price": 54356,
+        "created_at": "2023-09-28T09:59:15.483Z",
+        "updated_at": "2023-09-29T05:44:14.719Z",
+        "inventory_id": "1e6bf38d-e669-454c-a655-63697d17fdb2",
+        "order_id": "7156c20f-4a62-4b49-ba17-07c27c9fb620"
+      },
+      {
+        "id": "387bf77a-c202-4cb1-a418-428c56bf4547",
+        "quantity": 64590,
+        "price": 85768,
+        "created_at": "2023-09-28T22:53:01.744Z",
+        "updated_at": "2023-09-29T04:14:10.427Z",
+        "inventory_id": "c254cc78-2194-4aa7-a2fc-39e1d1803d25",
+        "order_id": "e6e790f5-0bb1-48ca-ae89-3a406cd44e08"
+      }
+    ],
+    "discount": [
+      {
+        "id": "fddcc937-68ce-46f1-b607-fecb96af7490",
+        "discount_percentage": 24441,
+        "start_date": "2023-09-29T00:06:05.620Z",
+        "end_date": "2023-09-28T09:25:29.822Z",
+        "created_at": "2023-09-29T04:14:30.274Z",
+        "updated_at": "2023-09-28T16:34:24.589Z",
+        "inventory_id": "1e6bf38d-e669-454c-a655-63697d17fdb2"
+      },
+      {
+        "id": "7806e100-e430-428f-9163-aa4e1883e27f",
+        "discount_percentage": 91770,
+        "start_date": "2023-09-28T07:50:18.220Z",
+        "end_date": "2023-09-28T07:10:10.487Z",
+        "created_at": "2023-09-28T22:58:16.903Z",
+        "updated_at": "2023-09-28T12:05:15.497Z",
+        "inventory_id": "1e6bf38d-e669-454c-a655-63697d17fdb2"
+      },
+      {
+        "id": "cdd6975d-29f3-4bcc-9ac6-851fea761f4e",
+        "discount_percentage": 44927,
+        "start_date": "2023-09-28T08:21:46.954Z",
+        "end_date": "2023-09-28T06:19:20.026Z",
+        "created_at": "2023-09-28T21:24:52.069Z",
+        "updated_at": "2023-09-28T11:52:54.763Z",
+        "inventory_id": "69ef51a8-5acb-4a1b-95b7-69472a85ccf9"
+      },
+      {
+        "id": "c0dc1a51-f205-4ba6-80a6-fe9d7f47e6f5",
+        "discount_percentage": 47678,
+        "start_date": "2023-09-28T11:49:24.365Z",
+        "end_date": "2023-09-28T20:46:28.960Z",
+        "created_at": "2023-09-28T16:55:37.291Z",
+        "updated_at": "2023-09-28T19:59:43.965Z",
+        "inventory_id": "74cbe40f-2038-4181-a7a5-d6c8dce20723"
+      },
+      {
+        "id": "902fdcba-cf90-4163-93ac-f85b806b6410",
+        "discount_percentage": 60025,
+        "start_date": "2023-09-28T14:13:23.089Z",
+        "end_date": "2023-09-28T17:05:29.506Z",
+        "created_at": "2023-09-29T03:03:41.761Z",
+        "updated_at": "2023-09-28T10:33:22.894Z",
+        "inventory_id": "53686682-850b-4e72-bbb7-4c2bd4dcd984"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bedfb756-ef61-42dd-ae34-2904592d04ff",
+        "email": "Yazmin.Larson36@roq.tech",
+        "firstName": "Chanel",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18169591",
+        "tenantId": null
+      },
+      {
+        "reference": "d0efa40f-4190-4563-a9db-5ebbbe17f846",
+        "email": "Tremaine_Stamm26@roq.tech",
+        "firstName": "Kailee",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95222719",
+        "tenantId": null
+      },
+      {
+        "reference": "f18335f7-41e2-4111-aab2-bbf39bed1451",
+        "email": "Obie87@roq.tech",
+        "firstName": "Maudie",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68822445",
+        "tenantId": null
+      },
+      {
+        "reference": "55b37944-dafb-4dd6-ac71-85cf595de150",
+        "email": "Janet.Brakus@roq.tech",
+        "firstName": "Gerardo",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ef7adda1-13c2-4b93-99e5-08c079a40e6a",
+        "email": "Kathryne56@roq.tech",
+        "firstName": "Franz",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51793348",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "e88026fc-37cb-4048-b82d-d127ae40b8a0",
+        "order_date": "2023-09-28T10:53:32.208Z",
+        "delivery_date": "2023-09-28T10:00:21.446Z",
+        "total_price": 80155,
+        "created_at": "2023-09-29T06:07:26.895Z",
+        "updated_at": "2023-09-28T17:12:28.537Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6497d94d-a901-4ea3-8710-5059ef8ac536",
+        "order_date": "2023-09-28T14:06:01.770Z",
+        "delivery_date": "2023-09-29T05:14:45.793Z",
+        "total_price": 90810,
+        "created_at": "2023-09-28T15:45:42.257Z",
+        "updated_at": "2023-09-28T10:56:49.682Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d022dc7f-ce31-4b34-9c68-242f79b6508b",
+        "order_date": "2023-09-28T21:00:15.975Z",
+        "delivery_date": "2023-09-28T14:27:58.890Z",
+        "total_price": 17579,
+        "created_at": "2023-09-28T09:41:53.670Z",
+        "updated_at": "2023-09-28T12:58:35.026Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "315cb335-45c9-4992-a15f-102d805aa6ce",
+        "order_date": "2023-09-28T08:15:42.443Z",
+        "delivery_date": "2023-09-28T12:02:22.076Z",
+        "total_price": 56060,
+        "created_at": "2023-09-29T01:42:47.375Z",
+        "updated_at": "2023-09-28T08:08:34.415Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b76c2be0-a6b3-4972-a816-46b3992563c7",
+        "order_date": "2023-09-28T16:46:30.952Z",
+        "delivery_date": "2023-09-28T10:33:50.825Z",
+        "total_price": 36632,
+        "created_at": "2023-09-28T10:43:40.501Z",
+        "updated_at": "2023-09-28T23:25:50.464Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "65416cf3-caa9-45a8-b999-c734831824b4",
+        "name": "Apples",
+        "quantity": 36312,
+        "price": 22071,
+        "expiry_date": "2023-09-29T00:39:37.096Z",
+        "created_at": "2023-09-28T22:20:12.585Z",
+        "updated_at": "2023-09-28T22:31:37.052Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "c9d870f5-29dc-44a1-8742-a5acfef5b072",
+        "name": "Bananas",
+        "quantity": 11072,
+        "price": 53975,
+        "expiry_date": "2023-09-28T20:53:43.398Z",
+        "created_at": "2023-09-29T01:18:35.284Z",
+        "updated_at": "2023-09-29T06:08:54.318Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "ca717f6b-c133-47bb-a0b1-f5a38d099e66",
+        "name": "Oranges",
+        "quantity": 41692,
+        "price": 54254,
+        "expiry_date": "2023-09-28T16:38:53.556Z",
+        "created_at": "2023-09-28T14:27:19.657Z",
+        "updated_at": "2023-09-28T18:15:29.915Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "f0e941ac-6cea-43e0-b87e-f12e62b14fb6",
+        "name": "Grapes",
+        "quantity": 45414,
+        "price": 55996,
+        "expiry_date": "2023-09-28T15:50:31.436Z",
+        "created_at": "2023-09-28T12:38:26.505Z",
+        "updated_at": "2023-09-28T17:15:19.553Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f",
+        "name": "Strawberries",
+        "quantity": 87209,
+        "price": 13916,
+        "expiry_date": "2023-09-28T12:56:41.720Z",
+        "created_at": "2023-09-29T04:01:58.222Z",
+        "updated_at": "2023-09-28T09:32:32.699Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "7a3e95dc-7779-4e4f-9329-967adddfe4a7",
+        "quantity": 75402,
+        "price": 51476,
+        "created_at": "2023-09-28T10:49:03.753Z",
+        "updated_at": "2023-09-28T16:52:25.357Z",
+        "inventory_id": "c9d870f5-29dc-44a1-8742-a5acfef5b072",
+        "order_id": "d022dc7f-ce31-4b34-9c68-242f79b6508b"
+      },
+      {
+        "id": "7214629d-b3b4-4fb2-8c89-63841ef07dec",
+        "quantity": 41286,
+        "price": 19543,
+        "created_at": "2023-09-29T02:14:42.013Z",
+        "updated_at": "2023-09-28T08:04:02.017Z",
+        "inventory_id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f",
+        "order_id": "6497d94d-a901-4ea3-8710-5059ef8ac536"
+      },
+      {
+        "id": "5e9a1c4a-7b0c-4667-adea-40a2a366c9a6",
+        "quantity": 51618,
+        "price": 2931,
+        "created_at": "2023-09-28T11:14:25.032Z",
+        "updated_at": "2023-09-29T05:28:27.754Z",
+        "inventory_id": "ca717f6b-c133-47bb-a0b1-f5a38d099e66",
+        "order_id": "b76c2be0-a6b3-4972-a816-46b3992563c7"
+      },
+      {
+        "id": "1c94960e-0328-452c-b0af-cdf2dd840bda",
+        "quantity": 75465,
+        "price": 59601,
+        "created_at": "2023-09-28T10:26:33.125Z",
+        "updated_at": "2023-09-28T07:05:27.161Z",
+        "inventory_id": "ca717f6b-c133-47bb-a0b1-f5a38d099e66",
+        "order_id": "315cb335-45c9-4992-a15f-102d805aa6ce"
+      },
+      {
+        "id": "c5246b25-643b-4615-b6e5-276d3195c579",
+        "quantity": 57941,
+        "price": 27835,
+        "created_at": "2023-09-28T22:22:12.700Z",
+        "updated_at": "2023-09-28T22:00:09.114Z",
+        "inventory_id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f",
+        "order_id": "6497d94d-a901-4ea3-8710-5059ef8ac536"
+      }
+    ],
+    "discount": [
+      {
+        "id": "289820bb-6b52-4525-b717-93583eef36a0",
+        "discount_percentage": 73139,
+        "start_date": "2023-09-29T04:58:44.895Z",
+        "end_date": "2023-09-28T23:40:02.403Z",
+        "created_at": "2023-09-28T18:39:51.708Z",
+        "updated_at": "2023-09-28T16:33:07.223Z",
+        "inventory_id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f"
+      },
+      {
+        "id": "3e4f8a36-efc5-43b1-ae5d-f6aeec6339b2",
+        "discount_percentage": 14767,
+        "start_date": "2023-09-29T02:53:44.868Z",
+        "end_date": "2023-09-29T02:53:31.118Z",
+        "created_at": "2023-09-28T09:02:57.382Z",
+        "updated_at": "2023-09-28T18:50:03.492Z",
+        "inventory_id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f"
+      },
+      {
+        "id": "386d32e3-a6bd-4f07-8dc8-c84c498175a6",
+        "discount_percentage": 22627,
+        "start_date": "2023-09-29T03:20:49.912Z",
+        "end_date": "2023-09-28T08:39:41.144Z",
+        "created_at": "2023-09-28T06:17:04.801Z",
+        "updated_at": "2023-09-28T22:11:45.855Z",
+        "inventory_id": "65416cf3-caa9-45a8-b999-c734831824b4"
+      },
+      {
+        "id": "823770d7-2c13-4273-a457-349bfacf1eab",
+        "discount_percentage": 47714,
+        "start_date": "2023-09-28T10:09:09.897Z",
+        "end_date": "2023-09-28T07:52:07.661Z",
+        "created_at": "2023-09-28T10:18:33.168Z",
+        "updated_at": "2023-09-28T20:36:49.594Z",
+        "inventory_id": "c9d870f5-29dc-44a1-8742-a5acfef5b072"
+      },
+      {
+        "id": "334bd6c1-03cf-400f-9e1a-f4fc41198ead",
+        "discount_percentage": 75281,
+        "start_date": "2023-09-28T10:54:33.380Z",
+        "end_date": "2023-09-28T11:32:00.512Z",
+        "created_at": "2023-09-28T14:34:21.288Z",
+        "updated_at": "2023-09-28T07:00:05.710Z",
+        "inventory_id": "ccc36cea-c1e4-4c8f-84e8-14c2d5f80c9f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9f1694b5-bfbb-4ef5-a4d1-afe8485fe848",
+        "email": "Grover_Bednar0@roq.tech",
+        "firstName": "Miles",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1146.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d96dcf9-c719-468a-8974-709f908ddeed",
+        "email": "Tom24@roq.tech",
+        "firstName": "Marianna",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cab2185d-6aef-4599-a846-a8a8c3cf1bd6",
+        "email": "Fern_Lang@roq.tech",
+        "firstName": "Florencio",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2986840",
+        "tenantId": null
+      },
+      {
+        "reference": "5eb954f1-7b10-4ed4-b49a-9baea1a1b8ce",
+        "email": "Reba32@roq.tech",
+        "firstName": "Jessyca",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21114530",
+        "tenantId": null
+      },
+      {
+        "reference": "fe338e7d-70a6-4d9c-a0d7-30f8354f7a85",
+        "email": "Fern.OConnell@roq.tech",
+        "firstName": "Roy",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "5cbd64c1-f868-485b-ae35-84ed90f0f04f",
+        "order_date": "2023-09-28T09:15:04.952Z",
+        "delivery_date": "2023-09-28T20:29:07.480Z",
+        "total_price": 51202,
+        "created_at": "2023-09-28T07:21:02.344Z",
+        "updated_at": "2023-09-28T11:41:44.776Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0b1e17c-a0ce-4920-aee3-6f02623f4a6b",
+        "order_date": "2023-09-28T07:04:27.670Z",
+        "delivery_date": "2023-09-28T19:42:35.775Z",
+        "total_price": 17101,
+        "created_at": "2023-09-28T21:03:31.453Z",
+        "updated_at": "2023-09-28T10:48:06.553Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5777ee08-8cf0-4052-8fba-0a94edab9274",
+        "order_date": "2023-09-28T07:50:42.183Z",
+        "delivery_date": "2023-09-28T07:34:12.825Z",
+        "total_price": 93025,
+        "created_at": "2023-09-28T11:01:27.209Z",
+        "updated_at": "2023-09-28T21:04:28.814Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e720a573-e6fc-401d-9763-937d3e703710",
+        "order_date": "2023-09-28T10:17:53.123Z",
+        "delivery_date": "2023-09-29T05:55:36.952Z",
+        "total_price": 95848,
+        "created_at": "2023-09-28T07:12:34.162Z",
+        "updated_at": "2023-09-28T22:46:11.486Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3450e4c-f233-4e1b-bb53-8164bee889ef",
+        "order_date": "2023-09-28T09:09:49.366Z",
+        "delivery_date": "2023-09-28T12:59:11.715Z",
+        "total_price": 99373,
+        "created_at": "2023-09-29T05:15:53.760Z",
+        "updated_at": "2023-09-28T18:14:08.886Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "cd9dc6e4-f020-404f-aba8-c139cd1b249d",
+        "name": "Apples",
+        "quantity": 24553,
+        "price": 54901,
+        "expiry_date": "2023-09-28T15:08:28.117Z",
+        "created_at": "2023-09-28T10:07:30.596Z",
+        "updated_at": "2023-09-29T02:14:12.383Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "11e92821-ea37-4a44-83c4-730d5263b501",
+        "name": "Bananas",
+        "quantity": 15482,
+        "price": 56805,
+        "expiry_date": "2023-09-29T06:07:36.499Z",
+        "created_at": "2023-09-28T16:04:57.814Z",
+        "updated_at": "2023-09-29T00:03:21.527Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "be27d1bc-b96d-42b1-b80a-409171656325",
+        "name": "Oranges",
+        "quantity": 60216,
+        "price": 44765,
+        "expiry_date": "2023-09-28T14:48:01.961Z",
+        "created_at": "2023-09-29T01:04:18.374Z",
+        "updated_at": "2023-09-28T09:28:58.319Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "8398e4ec-bdbf-49a6-a307-611b4dc28d82",
+        "name": "Tomatoes",
+        "quantity": 69270,
+        "price": 1395,
+        "expiry_date": "2023-09-28T10:49:39.781Z",
+        "created_at": "2023-09-29T03:08:06.531Z",
+        "updated_at": "2023-09-28T06:41:42.508Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "dcebc8bf-2bda-4050-a201-a177cce347eb",
+        "name": "Lettuce",
+        "quantity": 19304,
+        "price": 60390,
+        "expiry_date": "2023-09-28T18:56:20.122Z",
+        "created_at": "2023-09-28T20:54:56.977Z",
+        "updated_at": "2023-09-28T07:41:19.046Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "ce760292-bcb4-488e-99e2-2745536ef857",
+        "quantity": 3832,
+        "price": 23494,
+        "created_at": "2023-09-29T03:24:02.563Z",
+        "updated_at": "2023-09-28T10:01:52.232Z",
+        "inventory_id": "dcebc8bf-2bda-4050-a201-a177cce347eb",
+        "order_id": "b3450e4c-f233-4e1b-bb53-8164bee889ef"
+      },
+      {
+        "id": "b18ff284-ccbe-4bc5-a04b-5e0e8f5318ee",
+        "quantity": 23856,
+        "price": 18141,
+        "created_at": "2023-09-28T11:49:48.682Z",
+        "updated_at": "2023-09-28T21:01:49.850Z",
+        "inventory_id": "11e92821-ea37-4a44-83c4-730d5263b501",
+        "order_id": "e720a573-e6fc-401d-9763-937d3e703710"
+      },
+      {
+        "id": "3cb4a3c9-6826-4207-a69b-1409024c5881",
+        "quantity": 32775,
+        "price": 74012,
+        "created_at": "2023-09-28T23:55:23.660Z",
+        "updated_at": "2023-09-29T04:02:19.499Z",
+        "inventory_id": "be27d1bc-b96d-42b1-b80a-409171656325",
+        "order_id": "b3450e4c-f233-4e1b-bb53-8164bee889ef"
+      },
+      {
+        "id": "43fa071b-13a0-4b29-ae1c-56e638aeb554",
+        "quantity": 73986,
+        "price": 66939,
+        "created_at": "2023-09-28T21:04:07.779Z",
+        "updated_at": "2023-09-29T04:47:13.139Z",
+        "inventory_id": "cd9dc6e4-f020-404f-aba8-c139cd1b249d",
+        "order_id": "5777ee08-8cf0-4052-8fba-0a94edab9274"
+      },
+      {
+        "id": "57cb5034-d2d9-4383-9739-1aff537ca3a0",
+        "quantity": 32441,
+        "price": 59632,
+        "created_at": "2023-09-28T09:08:59.704Z",
+        "updated_at": "2023-09-28T19:39:00.220Z",
+        "inventory_id": "be27d1bc-b96d-42b1-b80a-409171656325",
+        "order_id": "e720a573-e6fc-401d-9763-937d3e703710"
+      }
+    ],
+    "discount": [
+      {
+        "id": "0ac3890c-731d-4deb-aa56-01cf25394d2e",
+        "discount_percentage": 63319,
+        "start_date": "2023-09-28T14:02:45.408Z",
+        "end_date": "2023-09-28T19:08:26.464Z",
+        "created_at": "2023-09-28T14:22:40.307Z",
+        "updated_at": "2023-09-28T08:42:08.085Z",
+        "inventory_id": "dcebc8bf-2bda-4050-a201-a177cce347eb"
+      },
+      {
+        "id": "31e6a9f3-d7b4-4b71-9c39-7cdeb481831a",
+        "discount_percentage": 47093,
+        "start_date": "2023-09-28T09:18:43.077Z",
+        "end_date": "2023-09-29T04:10:18.556Z",
+        "created_at": "2023-09-28T15:09:50.225Z",
+        "updated_at": "2023-09-29T05:46:08.084Z",
+        "inventory_id": "cd9dc6e4-f020-404f-aba8-c139cd1b249d"
+      },
+      {
+        "id": "b0fe7b63-c3d4-414d-880f-679ebe0f5ffa",
+        "discount_percentage": 77521,
+        "start_date": "2023-09-28T20:16:56.462Z",
+        "end_date": "2023-09-28T12:58:58.256Z",
+        "created_at": "2023-09-28T11:39:57.626Z",
+        "updated_at": "2023-09-28T23:34:18.775Z",
+        "inventory_id": "be27d1bc-b96d-42b1-b80a-409171656325"
+      },
+      {
+        "id": "e2cd524f-af4d-427d-b2d2-be4b1d19db13",
+        "discount_percentage": 24351,
+        "start_date": "2023-09-28T10:44:27.283Z",
+        "end_date": "2023-09-29T00:37:12.466Z",
+        "created_at": "2023-09-28T15:10:36.006Z",
+        "updated_at": "2023-09-28T19:16:45.693Z",
+        "inventory_id": "8398e4ec-bdbf-49a6-a307-611b4dc28d82"
+      },
+      {
+        "id": "e3137a80-0136-4794-bf72-6a51941a56ec",
+        "discount_percentage": 29234,
+        "start_date": "2023-09-28T22:03:33.372Z",
+        "end_date": "2023-09-28T12:31:21.529Z",
+        "created_at": "2023-09-28T08:52:21.077Z",
+        "updated_at": "2023-09-28T08:38:50.829Z",
+        "inventory_id": "dcebc8bf-2bda-4050-a201-a177cce347eb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cde8b566-2882-4e65-946a-1c878e8b38c1",
+        "email": "Emiliano19@roq.tech",
+        "firstName": "Wilhelm",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54661560",
+        "tenantId": null
+      },
+      {
+        "reference": "fb21a1b4-1830-4914-8c12-05d721eaaf7b",
+        "email": "Cassidy_Morissette48@roq.tech",
+        "firstName": "Ward",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1071.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d174ed12-f099-41e9-b58c-4af724860863",
+        "email": "Marcus_Kris@roq.tech",
+        "firstName": "Anya",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93623918",
+        "tenantId": null
+      },
+      {
+        "reference": "a696bb2d-7f3b-4ee5-9025-1ccaeb8381a1",
+        "email": "Macy55@roq.tech",
+        "firstName": "Nicolette",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79820171",
+        "tenantId": null
+      },
+      {
+        "reference": "f7f8f03c-e835-4e95-9d39-08e816bc52c4",
+        "email": "Kieran.Kemmer55@roq.tech",
+        "firstName": "Weston",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "46648be0-662a-49e7-93ef-4e65f700b793",
+        "order_date": "2023-09-29T02:48:52.606Z",
+        "delivery_date": "2023-09-28T07:37:27.457Z",
+        "total_price": 6632,
+        "created_at": "2023-09-28T15:10:28.494Z",
+        "updated_at": "2023-09-28T21:46:42.173Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b55e79b2-d4df-475b-85ad-b271700aadfa",
+        "order_date": "2023-09-28T13:35:21.266Z",
+        "delivery_date": "2023-09-28T09:40:20.793Z",
+        "total_price": 35235,
+        "created_at": "2023-09-29T00:25:48.615Z",
+        "updated_at": "2023-09-29T05:56:16.565Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82e6fc19-9b95-4f89-8b8c-ae4c0adec081",
+        "order_date": "2023-09-29T05:14:34.536Z",
+        "delivery_date": "2023-09-28T14:17:50.150Z",
+        "total_price": 33408,
+        "created_at": "2023-09-28T13:42:09.672Z",
+        "updated_at": "2023-09-28T09:43:46.945Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65b0191b-de82-49ea-8e8c-365f7e706498",
+        "order_date": "2023-09-28T21:43:19.556Z",
+        "delivery_date": "2023-09-28T23:20:58.861Z",
+        "total_price": 12535,
+        "created_at": "2023-09-29T02:20:06.090Z",
+        "updated_at": "2023-09-29T00:54:18.010Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bc70b8f-ba22-471e-b7af-796914bff489",
+        "order_date": "2023-09-28T20:29:11.895Z",
+        "delivery_date": "2023-09-28T19:47:49.585Z",
+        "total_price": 61085,
+        "created_at": "2023-09-28T13:42:14.321Z",
+        "updated_at": "2023-09-29T06:08:21.016Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "62b13c1b-24d8-42b2-bee0-a766976e21e1",
+        "name": "Apples",
+        "quantity": 115,
+        "price": 7645,
+        "expiry_date": "2023-09-29T02:48:04.368Z",
+        "created_at": "2023-09-29T04:45:21.816Z",
+        "updated_at": "2023-09-28T10:39:01.868Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "588c2591-9fd2-4a73-bcb9-8417b0f8e35a",
+        "name": "Bananas",
+        "quantity": 40413,
+        "price": 47391,
+        "expiry_date": "2023-09-28T19:04:11.236Z",
+        "created_at": "2023-09-28T07:21:48.329Z",
+        "updated_at": "2023-09-28T21:28:26.841Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "c0d93c5f-2a06-4df3-a13f-201ef294e060",
+        "name": "Oranges",
+        "quantity": 4705,
+        "price": 99553,
+        "expiry_date": "2023-09-28T13:33:30.840Z",
+        "created_at": "2023-09-28T07:32:54.719Z",
+        "updated_at": "2023-09-28T16:10:26.416Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "9da4a616-693e-443c-8cf3-96cdad50c432",
+        "name": "Tomatoes",
+        "quantity": 66065,
+        "price": 77520,
+        "expiry_date": "2023-09-29T00:11:30.272Z",
+        "created_at": "2023-09-28T19:52:56.438Z",
+        "updated_at": "2023-09-28T14:30:48.290Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "7a310b1a-20e9-4d29-a043-866ab4a29a56",
+        "name": "Carrots",
+        "quantity": 38248,
+        "price": 67235,
+        "expiry_date": "2023-09-28T11:48:29.108Z",
+        "created_at": "2023-09-28T13:50:42.657Z",
+        "updated_at": "2023-09-28T10:08:33.876Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "1dd259f7-7ebf-4a63-8b7e-be37ce7725ac",
+        "quantity": 6771,
+        "price": 88852,
+        "created_at": "2023-09-29T04:14:11.796Z",
+        "updated_at": "2023-09-28T20:16:36.082Z",
+        "inventory_id": "588c2591-9fd2-4a73-bcb9-8417b0f8e35a",
+        "order_id": "3bc70b8f-ba22-471e-b7af-796914bff489"
+      },
+      {
+        "id": "1ba5bc22-3575-4fea-afb2-be797ac90b51",
+        "quantity": 91479,
+        "price": 59875,
+        "created_at": "2023-09-28T20:55:09.972Z",
+        "updated_at": "2023-09-29T04:44:48.630Z",
+        "inventory_id": "9da4a616-693e-443c-8cf3-96cdad50c432",
+        "order_id": "82e6fc19-9b95-4f89-8b8c-ae4c0adec081"
+      },
+      {
+        "id": "ff63970a-580e-4d4a-95a6-24db59a3da3f",
+        "quantity": 57737,
+        "price": 82470,
+        "created_at": "2023-09-28T11:58:45.239Z",
+        "updated_at": "2023-09-29T05:00:22.544Z",
+        "inventory_id": "9da4a616-693e-443c-8cf3-96cdad50c432",
+        "order_id": "46648be0-662a-49e7-93ef-4e65f700b793"
+      },
+      {
+        "id": "585e3266-b49c-42c3-9c06-27cbd4a34065",
+        "quantity": 54333,
+        "price": 24039,
+        "created_at": "2023-09-28T16:21:18.273Z",
+        "updated_at": "2023-09-28T15:21:49.098Z",
+        "inventory_id": "62b13c1b-24d8-42b2-bee0-a766976e21e1",
+        "order_id": "65b0191b-de82-49ea-8e8c-365f7e706498"
+      },
+      {
+        "id": "859d0cf5-c48a-4d7c-b2bb-e3d4b8d6e3b9",
+        "quantity": 24324,
+        "price": 13240,
+        "created_at": "2023-09-28T21:36:36.116Z",
+        "updated_at": "2023-09-28T21:49:53.036Z",
+        "inventory_id": "62b13c1b-24d8-42b2-bee0-a766976e21e1",
+        "order_id": "3bc70b8f-ba22-471e-b7af-796914bff489"
+      }
+    ],
+    "discount": [
+      {
+        "id": "4128ab3a-ffb7-47df-aa43-811bbcf7d943",
+        "discount_percentage": 54184,
+        "start_date": "2023-09-29T04:17:11.711Z",
+        "end_date": "2023-09-28T16:59:07.159Z",
+        "created_at": "2023-09-28T10:25:15.672Z",
+        "updated_at": "2023-09-28T06:35:37.030Z",
+        "inventory_id": "c0d93c5f-2a06-4df3-a13f-201ef294e060"
+      },
+      {
+        "id": "52d9b3a8-fb69-4477-9d9b-64f5769eb3bd",
+        "discount_percentage": 62628,
+        "start_date": "2023-09-29T02:19:44.395Z",
+        "end_date": "2023-09-28T14:07:11.778Z",
+        "created_at": "2023-09-29T01:31:38.492Z",
+        "updated_at": "2023-09-28T11:14:30.864Z",
+        "inventory_id": "7a310b1a-20e9-4d29-a043-866ab4a29a56"
+      },
+      {
+        "id": "5fce66d0-e98e-4237-8d55-6f371096260a",
+        "discount_percentage": 89614,
+        "start_date": "2023-09-28T23:25:13.757Z",
+        "end_date": "2023-09-28T21:20:33.125Z",
+        "created_at": "2023-09-28T22:38:59.835Z",
+        "updated_at": "2023-09-28T11:29:50.574Z",
+        "inventory_id": "9da4a616-693e-443c-8cf3-96cdad50c432"
+      },
+      {
+        "id": "87b56e3b-b3eb-4390-ad86-689d56b76bf5",
+        "discount_percentage": 27434,
+        "start_date": "2023-09-28T22:08:39.264Z",
+        "end_date": "2023-09-29T02:37:06.210Z",
+        "created_at": "2023-09-29T04:55:46.482Z",
+        "updated_at": "2023-09-28T08:45:42.840Z",
+        "inventory_id": "588c2591-9fd2-4a73-bcb9-8417b0f8e35a"
+      },
+      {
+        "id": "33227eb4-c803-4993-85bb-a0211c3b2347",
+        "discount_percentage": 69578,
+        "start_date": "2023-09-28T11:03:55.203Z",
+        "end_date": "2023-09-28T16:02:20.698Z",
+        "created_at": "2023-09-28T18:43:12.214Z",
+        "updated_at": "2023-09-29T05:44:57.629Z",
+        "inventory_id": "7a310b1a-20e9-4d29-a043-866ab4a29a56"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c98987f7-f7c2-425c-bd62-d4b80863dbfa",
+        "email": "Alia45@roq.tech",
+        "firstName": "Opal",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6346572",
+        "tenantId": null
+      },
+      {
+        "reference": "b540fd7b-eddc-4576-9cb0-e3ca9a8202fc",
+        "email": "Jocelyn4@roq.tech",
+        "firstName": "Serenity",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/422.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab687e9a-2983-4512-9d15-f0e5c27d52e5",
+        "email": "Norene78@roq.tech",
+        "firstName": "Liza",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/304.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bc07d14f-5ec2-4478-924c-6dd035287de9",
+        "email": "Zane15@roq.tech",
+        "firstName": "Rosamond",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78468a89-7eae-472b-bc54-88215c402162",
+        "email": "Elmore53@roq.tech",
+        "firstName": "Oswaldo",
+        "lastName": "McLaughlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/86.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "order": [
+      {
+        "id": "4c82cac5-3e31-428e-bcc2-4577bc70cee5",
+        "order_date": "2023-09-28T06:43:37.027Z",
+        "delivery_date": "2023-09-29T01:48:39.600Z",
+        "total_price": 4275,
+        "created_at": "2023-09-28T14:59:58.459Z",
+        "updated_at": "2023-09-28T08:14:15.287Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7131866a-4ad0-4d6a-a642-4dff00a3d60a",
+        "order_date": "2023-09-28T17:26:22.597Z",
+        "delivery_date": "2023-09-28T18:27:50.526Z",
+        "total_price": 64663,
+        "created_at": "2023-09-28T22:12:35.820Z",
+        "updated_at": "2023-09-28T17:18:30.565Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7d07c77-bd72-4b65-8c39-f530b96b134f",
+        "order_date": "2023-09-29T01:48:03.330Z",
+        "delivery_date": "2023-09-28T13:33:58.954Z",
+        "total_price": 34450,
+        "created_at": "2023-09-29T04:32:29.193Z",
+        "updated_at": "2023-09-28T23:52:57.207Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2e9291e-6f48-4be3-82ba-0a01cdfbab28",
+        "order_date": "2023-09-28T23:41:42.956Z",
+        "delivery_date": "2023-09-28T16:07:49.527Z",
+        "total_price": 96950,
+        "created_at": "2023-09-29T06:08:29.826Z",
+        "updated_at": "2023-09-29T00:36:44.778Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c08c270-0c3f-44f6-9505-844b2597cdb9",
+        "order_date": "2023-09-28T23:09:50.638Z",
+        "delivery_date": "2023-09-28T12:51:16.249Z",
+        "total_price": 9226,
+        "created_at": "2023-09-29T03:39:04.617Z",
+        "updated_at": "2023-09-29T01:57:18.257Z",
+        "supermarket_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "c64da486-0b4e-42fb-845c-8b9e751efbcd",
+        "name": "Apples",
+        "quantity": 60308,
+        "price": 45655,
+        "expiry_date": "2023-09-28T06:17:00.330Z",
+        "created_at": "2023-09-28T16:48:02.638Z",
+        "updated_at": "2023-09-29T00:53:35.199Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "5badf0a4-7139-4d9d-bea4-74a3d4c35af2",
+        "name": "Bananas",
+        "quantity": 89034,
+        "price": 76379,
+        "expiry_date": "2023-09-28T07:33:15.121Z",
+        "created_at": "2023-09-28T10:18:13.161Z",
+        "updated_at": "2023-09-28T15:11:04.554Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "6a483efa-bbbd-47cb-b599-108237cab8b3",
+        "name": "Oranges",
+        "quantity": 96835,
+        "price": 9183,
+        "expiry_date": "2023-09-28T16:45:14.121Z",
+        "created_at": "2023-09-28T12:42:09.399Z",
+        "updated_at": "2023-09-28T07:34:41.061Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "ca187837-d94b-4d89-ba8c-602fde5ec46d",
+        "name": "Grapes",
+        "quantity": 24723,
+        "price": 31074,
+        "expiry_date": "2023-09-29T03:02:52.772Z",
+        "created_at": "2023-09-28T11:39:32.167Z",
+        "updated_at": "2023-09-28T08:21:42.233Z",
+        "supermarket_id": "main_entity_pk"
+      },
+      {
+        "id": "fe958441-eda1-4893-9beb-1edea2c963ec",
+        "name": "Strawberries",
+        "quantity": 71106,
+        "price": 50889,
+        "expiry_date": "2023-09-28T16:09:39.267Z",
+        "created_at": "2023-09-29T02:07:49.680Z",
+        "updated_at": "2023-09-29T01:03:02.691Z",
+        "supermarket_id": "main_entity_pk"
+      }
+    ],
+    "order_item": [
+      {
+        "id": "f69b2327-937f-47e9-a947-18bea44896c0",
+        "quantity": 26813,
+        "price": 50913,
+        "created_at": "2023-09-28T11:43:47.559Z",
+        "updated_at": "2023-09-28T23:36:56.696Z",
+        "inventory_id": "5badf0a4-7139-4d9d-bea4-74a3d4c35af2",
+        "order_id": "4c82cac5-3e31-428e-bcc2-4577bc70cee5"
+      },
+      {
+        "id": "0f7bdc5f-85dc-4da9-b796-fec137883ab6",
+        "quantity": 37491,
+        "price": 8812,
+        "created_at": "2023-09-28T07:22:41.391Z",
+        "updated_at": "2023-09-28T06:33:22.467Z",
+        "inventory_id": "6a483efa-bbbd-47cb-b599-108237cab8b3",
+        "order_id": "7131866a-4ad0-4d6a-a642-4dff00a3d60a"
+      },
+      {
+        "id": "6f407b83-9363-4eaf-93d2-39098603683b",
+        "quantity": 97405,
+        "price": 40271,
+        "created_at": "2023-09-29T00:51:02.253Z",
+        "updated_at": "2023-09-28T12:24:47.540Z",
+        "inventory_id": "6a483efa-bbbd-47cb-b599-108237cab8b3",
+        "order_id": "4c82cac5-3e31-428e-bcc2-4577bc70cee5"
+      },
+      {
+        "id": "c14f17b4-993a-47ad-b896-b6dc990ac7e4",
+        "quantity": 26599,
+        "price": 52768,
+        "created_at": "2023-09-28T20:28:13.875Z",
+        "updated_at": "2023-09-28T06:44:53.484Z",
+        "inventory_id": "ca187837-d94b-4d89-ba8c-602fde5ec46d",
+        "order_id": "4c08c270-0c3f-44f6-9505-844b2597cdb9"
+      },
+      {
+        "id": "7c7e3ff7-9aa1-4dfb-8e6e-917cf66b4fcf",
+        "quantity": 46516,
+        "price": 72077,
+        "created_at": "2023-09-28T07:23:30.682Z",
+        "updated_at": "2023-09-29T02:07:00.062Z",
+        "inventory_id": "fe958441-eda1-4893-9beb-1edea2c963ec",
+        "order_id": "4c82cac5-3e31-428e-bcc2-4577bc70cee5"
+      }
+    ],
+    "discount": [
+      {
+        "id": "9049ea0e-b234-461d-bdf6-b1ad364c8ba8",
+        "discount_percentage": 84892,
+        "start_date": "2023-09-28T11:11:48.714Z",
+        "end_date": "2023-09-28T17:09:27.078Z",
+        "created_at": "2023-09-28T21:45:15.978Z",
+        "updated_at": "2023-09-28T16:28:54.543Z",
+        "inventory_id": "fe958441-eda1-4893-9beb-1edea2c963ec"
+      },
+      {
+        "id": "50ef3382-01d1-4e3e-af92-48c4066fb9f7",
+        "discount_percentage": 89251,
+        "start_date": "2023-09-28T18:18:37.749Z",
+        "end_date": "2023-09-29T00:14:38.963Z",
+        "created_at": "2023-09-29T00:39:35.198Z",
+        "updated_at": "2023-09-28T15:52:50.037Z",
+        "inventory_id": "6a483efa-bbbd-47cb-b599-108237cab8b3"
+      },
+      {
+        "id": "a7a6ca9e-a5e9-4135-8801-347240e7bec0",
+        "discount_percentage": 17286,
+        "start_date": "2023-09-28T18:05:23.717Z",
+        "end_date": "2023-09-29T02:03:26.408Z",
+        "created_at": "2023-09-28T10:48:02.960Z",
+        "updated_at": "2023-09-28T13:07:28.116Z",
+        "inventory_id": "c64da486-0b4e-42fb-845c-8b9e751efbcd"
+      },
+      {
+        "id": "d1cd41db-f471-4cff-beb7-fd205d87fffe",
+        "discount_percentage": 44230,
+        "start_date": "2023-09-28T12:58:16.270Z",
+        "end_date": "2023-09-28T23:14:49.101Z",
+        "created_at": "2023-09-28T16:11:44.242Z",
+        "updated_at": "2023-09-28T16:26:46.431Z",
+        "inventory_id": "ca187837-d94b-4d89-ba8c-602fde5ec46d"
+      },
+      {
+        "id": "5af1a426-33e9-42d0-8a1b-5124993459b0",
+        "discount_percentage": 51492,
+        "start_date": "2023-09-28T14:38:25.161Z",
+        "end_date": "2023-09-28T08:52:38.398Z",
+        "created_at": "2023-09-29T00:05:55.589Z",
+        "updated_at": "2023-09-29T03:41:27.647Z",
+        "inventory_id": "5badf0a4-7139-4d9d-bea4-74a3d4c35af2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f3e533b1-6f83-41e4-ae3d-7e6f2725c4c9",
+        "email": "Tevin.Balistreri92@roq.tech",
+        "firstName": "Jaylen",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54539450",
+        "tenantId": null
+      },
+      {
+        "reference": "18c0fdca-15f0-44f5-8d50-9bb519be9d49",
+        "email": "Jennings_Greenholt25@roq.tech",
+        "firstName": "Augustus",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/654.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "526adae0-b6a8-48e9-8625-22f7ccf0a9d1",
+        "email": "Janae.OConner95@roq.tech",
+        "firstName": "Marion",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95319578",
+        "tenantId": null
+      },
+      {
+        "reference": "7f9bdd8b-e43d-43eb-9061-a8eccd363889",
+        "email": "Otha27@roq.tech",
+        "firstName": "Maureen",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67044821",
+        "tenantId": null
+      },
+      {
+        "reference": "7d48a8fc-e984-4f24-ac75-18865c611f49",
+        "email": "Else_Lynch@roq.tech",
+        "firstName": "Hulda",
+        "lastName": "Franey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64674830",
+        "tenantId": null
+      }
+    ]
+  }
+]
